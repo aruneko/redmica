@@ -1,0 +1,8 @@
+production:
+  adapter: postgis
+  database: <%= ENV['DB_NAME'] %>
+  host: <%= ENV['DB_HOST'] %>
+  username: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PASS'] %>
+  encoding: utf8
+
