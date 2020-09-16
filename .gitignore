@@ -6,7 +6,6 @@
 /.ruby-version
 /config/additional_environment.rb
 /config/configuration.yml
-/config/database.yml
 /config/email.yml
 /config/secrets.yml
 /config/initializers/session_store.rb
@@ -41,7 +40,8 @@
 
 /.bundle
 /Gemfile.lock
-/Gemfile.local
 
 /node_modules
 yarn-error.log
+
+.env
