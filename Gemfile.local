@@ -1,0 +1,6 @@
+gem 'pg'
+gem 'activerecord-postgis-adapter'
+gem 'rack-cors'
+gem 'puma'
+gem 'puma_worker_killer'
+gem 'lograge'
