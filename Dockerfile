@@ -78,6 +78,7 @@ RUN set -eux; \
 	  rm -rf /var/lib/apt/lists/*; \
     \
     chown -R redmine:redmine ./; \
+    find ./plugins -name Gemfile | xargs rm -rf; \
     gosu redmine bundle install --jobs "$(nproc)" --without development test; \
     chmod -R ugo=rwX Gemfile.lock "$GEM_HOME"; \
 	  rm -rf ~redmine/.bundle; \
