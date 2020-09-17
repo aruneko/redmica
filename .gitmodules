@@ -1,0 +1,3 @@
+[submodule "plugins/redmine_persist_wfmt"]
+	path = plugins/redmine_persist_wfmt
+	url = https://github.com/pinzolo/redmine_persist_wfmt.git
